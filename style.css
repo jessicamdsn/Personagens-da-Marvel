@@ -8,7 +8,7 @@ body::before{
     background-color: black;
     background-image: url(image/desktop6.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     width: 100%;
     height: 110%;
@@ -24,8 +24,9 @@ body::before{
 }
 
 .logo {
-    width: 180px;
+    width: 160px;
     border-radius: 10%;
+    margin-bottom: 10px;
 }
 
 .selecao-de-personagem {
@@ -79,7 +80,7 @@ body::before{
     
     text-align: center;
     max-height: 530px;
-    max-width: 500px;
+    
 }
 .personagens-selecionados .personagem-grande{
     height: 430px;
@@ -93,7 +94,7 @@ body::before{
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
     width: 420px;
 }
 
